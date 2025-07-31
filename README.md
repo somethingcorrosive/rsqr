@@ -92,7 +92,7 @@ Run one step manually( make sure to cargo build prior ):
 
 Generated completions are saved to:
 
-    target/debug/build/rsqr-*/out/completions/
+    completions/
 
 ---
 
