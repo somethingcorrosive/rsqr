@@ -68,10 +68,6 @@ Then copy the binary to your path:
 
     rsqr "full test" --invert --no-quiet --charset block --png final.png --scale 16
 
-### ➤ Easter egg QR to your GitHub
-
-    rsqr --me
-
 ---
 
 ## 🧪 Testing & QA
