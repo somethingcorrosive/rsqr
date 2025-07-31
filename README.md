@@ -15,8 +15,7 @@ Designed to be tiny, testable, and do exactly one thing — very well.
 - ✅ Invert light/dark rendering (`--invert`)
 - ✅ Use different character styles (`--charset`)
 - ✅ Built-in test suite and QA shell script
-- ✅ Easter egg mode: `--me` generates your GitHub QR
-- ✅ Shell completions for bash/zsh/fish
+- ✅ Shell completions for bash/zsh/fish ( make completions )
 
 ---
 
@@ -85,7 +84,7 @@ Run full CLI QA script:
 
     make qa
 
-Run one step manually:
+Run one step manually( make sure to cargo build prior ):
 
     ./qa.sh
 
