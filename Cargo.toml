@@ -1,0 +1,27 @@
+[package]
+name = "rsqr"
+version = "1.0.0"
+edition = "2021"
+authors = ["Random Name"]
+description = "A really simple QR code generator in Rust"
+license = "MIT"
+repository = "https://github.com/somethingcorrosive/rsqr"
+homepage = "https://github.com/somethingcorrosive/rsqr"
+readme = "README.md"
+keywords = ["qr", "cli", "terminal", "rust"]
+categories = ["command-line-utilities"]
+build = "build.rs"
+
+[dependencies]
+qrcode = "0.12"
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+image = "0.25"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "3.0"
+
+[build-dependencies]
+clap = { version = "4.4", features = ["derive"] }
+clap_complete = "4.4"
