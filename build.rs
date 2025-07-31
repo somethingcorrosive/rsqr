@@ -15,7 +15,7 @@ enum Charset {
 
 #[derive(Parser, Debug)]
 #[command(name = "rsqr")]
-#[command(version = "0.3.0")]
+#[command(version = "1.0.0")]
 #[command(about = "Generate QR codes in your terminal or as PNG")]
 struct Args {
     #[arg(conflicts_with = "me")]
